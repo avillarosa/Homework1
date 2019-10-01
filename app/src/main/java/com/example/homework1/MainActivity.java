@@ -66,7 +66,7 @@ public class MainActivity extends Activity {
         colOne.addView(tv);
 
         tv = new TextView(this);
-        tv.setText("Properties");
+        tv.setText("properties");
         tv.setBackgroundColor(Color.WHITE);
         tv.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
         tv.setPadding(0, 26, 0, 26);
@@ -354,5 +354,6 @@ public class MainActivity extends Activity {
 
         root.addView(llRoot);
         setContentView(root);
+        //setContentView(R.layout.linear_layout);
     }
 }
