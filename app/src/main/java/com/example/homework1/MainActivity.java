@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.text.BoringLayout;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.HorizontalScrollView;
@@ -69,7 +68,7 @@ public class MainActivity extends Activity {
         tv.setText("properties");
         tv.setBackgroundColor(Color.WHITE);
         tv.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
-        tv.setPadding(0, 26, 0, 26);
+        tv.setPadding(26, 26, 26, 26);
         colOne.addView(tv);
 
         tv = new TextView(this);
